@@ -89,6 +89,16 @@ namespace Assignment_oop1
             //Console.WriteLine(P2.Name);
             #endregion
             #endregion
+            #region Question 2
+            //Public can access in any place in my project 
+            //private can access only in their scope can't see outside just in their class
+            //Person3 p3 = new Person3();
+            //p3.Name = "Mona";
+            //p3.Age = 20; //error
+            //لازم نكت نسدعي الفانكشن من غير objects
+            //p3.SetAge(23);
+            //Console.WriteLine("Name is "+ p3.Name +", Age ="+ p3.GetAge());
+            #endregion
         }
     }
 }
