@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Math_Libirary;
+using System.ComponentModel;
 
 namespace Assignment_oop1
 {
@@ -100,7 +101,11 @@ namespace Assignment_oop1
             //Console.WriteLine("Name is "+ p3.Name +", Age ="+ p3.GetAge());
             #endregion
             #region Qustion 3
-
+            #region Liberary
+            Console.WriteLine(LibiraryHelper.Sum(10, 20));
+            Console.WriteLine(LibiraryHelper.Substraction(20, 10));
+            Console.WriteLine(LibiraryHelper.Multiply(2, 3));
+            #endregion           
             #endregion
             #region Question 4
             //Why do we use class libraries?
