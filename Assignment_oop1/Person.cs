@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_oop1
 {
-    public class Person
+    internal class Person
     {
         public string name;
     }
