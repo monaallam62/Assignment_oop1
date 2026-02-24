@@ -14,19 +14,19 @@ namespace Assignment_oop1
     //{
     //    public string Name;
     //}
-    public class Person3
-    {
-        public string Name;
-        private int Age;
+    //public class Person3
+    //{
+    //    public string Name;
+    //    private int Age;
 
-        public void SetAge(int age)
-        {
-            Age = age;
-        }
-        public int GetAge()
-        {
-            return Age;
-        }
+    //    public void SetAge(int age)
+    //    {
+    //        Age = age;
+    //    }
+    //    public int GetAge()
+    //    {
+    //        return Age;
+    //    }
 
-    }
+    //}
 }
