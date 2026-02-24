@@ -25,7 +25,7 @@ namespace Assignment_oop1
         }
         public int GetAge()
         {
-            return ;
+            return Age;
         }
 
     }
