@@ -102,9 +102,9 @@ namespace Assignment_oop1
             #endregion
             #region Qustion 3
             #region Liberary
-            Console.WriteLine(LibiraryHelper.Sum(10, 20));
-            Console.WriteLine(LibiraryHelper.Substraction(20, 10));
-            Console.WriteLine(LibiraryHelper.Multiply(2, 3));
+            //Console.WriteLine(LibiraryHelper.Sum(10, 20));
+            //Console.WriteLine(LibiraryHelper.Substraction(20, 10));
+            //Console.WriteLine(LibiraryHelper.Multiply(2, 3));
             #endregion           
             #endregion
             #region Question 4
