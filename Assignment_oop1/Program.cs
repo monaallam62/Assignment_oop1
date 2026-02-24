@@ -99,6 +99,16 @@ namespace Assignment_oop1
             //p3.SetAge(23);
             //Console.WriteLine("Name is "+ p3.Name +", Age ="+ p3.GetAge());
             #endregion
+            #region Qustion 3
+
+            #endregion
+            #region Question 4
+            //Why do we use class libraries?
+            // is a separate project that contains reusable classes, but has no Main method and cannot run on its own. It compiles into a .dll file
+            //Why we use Libirary
+            //Reusable write once, use in many projects , Organization — Separate concerns into different assemblies, Maintenance — fix a bug once, all projects benefit
+            #endregion
+
         }
     }
 }
