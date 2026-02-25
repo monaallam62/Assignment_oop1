@@ -1,4 +1,5 @@
-﻿using Math_Libirary;
+﻿using Assignment_oop1.Enum;
+using Math_Libirary;
 using System.ComponentModel;
 
 namespace Assignment_oop1
@@ -112,9 +113,34 @@ namespace Assignment_oop1
             //Why we use Libirary
             //Reusable write once, use in many projects , Organization — Separate concerns into different assemblies, Maintenance — fix a bug once, all projects benefit
             #endregion
-
             #region Question 5
+            //Console.Write("Enter Movie Name : ");
+            //string movie=Console.ReadLine();
 
+            //Console.Write("Enter Ticket Type (0 = Standard, 1 = VIP, 2 = IMAX): ");
+            //int typeI = int.Parse(Console.ReadLine());
+            //TicketType type =(TicketType) typeI;
+
+            //Console.Write("Enter Seat Row (A,B,C,....) : ");
+            //char row=char.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Seat Number : ");
+            //int number=int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Price : ");
+            //double price =double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Discount Amount: ");
+            //double discount = double.Parse(Console.ReadLine());
+            //Console.WriteLine("====Ticket Info====");
+            //SeatL seat = new SeatL(row, number);
+            //Ticket ticket = new Ticket(movie, type, seat, price);
+            //ticket.PrintTicket(14);
+            //Console.WriteLine("\n===== After Discount =====");
+            //Console.WriteLine($"Discount before: {discount}");
+            //ticket.ApplyDiscount(ref discount);
+            //Console.WriteLine($"Discount after: {discount}");
+            //ticket.PrintTicket(14);
             #endregion
 
 

@@ -8,7 +8,7 @@ namespace Assignment_oop1.Enum
 {
     public enum TicketType
     {
-        Stansard,
+        Standard,
         Vip,
         Imax
     }
