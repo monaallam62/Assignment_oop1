@@ -11,5 +11,6 @@ namespace Assignment_oop1.Enum
         Standard,
         Vip,
         Imax
+
     }
 }
