@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Math_Libirary">
+      <HintPath>..\..\MathLibirary\Math_Libirary\bin\Debug\net8.0\Math_Libirary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
