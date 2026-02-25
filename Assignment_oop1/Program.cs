@@ -42,6 +42,26 @@ namespace Assignment_oop1
     //Can write inside :Field, indexer,properties,constructor,event,methods,constant
     //member access modifier :public,private,internal,private protected,protected internal
     //the diif between class and struct - struct can't support inhertance , abstraction and part of polymarphism(overriding)
+    #region Declaring a variable from struct
+
+    //// Using constructor
+    //Point p1 = new Point(3, 4);
+    //Console.WriteLine($"p1 = {p1}");
+    //Console.WriteLine($"p1.DistanceFromOrigin  = {p1.DistanceFromOrigin()}"); // 5
+
+    //// Without constructor (all fields get default values)
+    //Point p2 = new Point();
+    //// Default constructor compiler provides a default constructor that initializes all fields to their default values (0 for int, null for reference types, etc.)
+    //Console.WriteLine($"p2 = {p2}");
+
+    //Point p3; // Declaring a variable of type Point without initializing it
+    //		  //p3.X = 10; // Invalid 
+
+    //Point p4 = new() { X = 10, Y = 20 };
+    //Console.WriteLine(p4.DistanceFromOrigin()); // 22.360679774997898
+    //Point.GetMessage(); // Struct Point
+    #endregion
+
     #endregion
     #region Enum
     //is value type 
@@ -61,8 +81,60 @@ namespace Assignment_oop1
     //Record itself: internal — Members: private
     //record class :reference type lives in heap (immutable), record struct value type lives in stack (mutable)
     #endregion
+    #region Declaring a variable from class
+    //Student student01; // Declare a variable of type Student
+    //student01 = new Student(); // Create a new instance of the Student class and assign it to the variable
+    //student01.Name = "Ahmed"; // Set the Name property of the student01 object
+    //student01.Age = 20; // Set the Age property of the student01 object
+
+    //student01.Introduce();
+    //Console.WriteLine(student01.GetBirthYear());
+    //Student.WelcomeMessage();
+    #endregion
+    #region Reference Type Behavior
+
+    //Student student01 = new Student("Ahmed", 20);
+    //Student student02 = student01; // student02 references the same object as student01
+    //Console.WriteLine($"Student01 Name : {student01.Name}"); // Output: Student01 Name : Ahmed
+    //Console.WriteLine($"Student02 Name : {student02.Name}"); // Output: Student02 Name : Ahmed
+    //student01.Name = "Ali"; // Modifying the Name property through student01 reference
+    //Console.WriteLine("After Modifying Name");
+    //Console.WriteLine($"Student01 Name : {student01.Name}"); // Output: Student01 Name : Ali
+    //Console.WriteLine($"Student02 Name : {student02.Name}"); // Output: Student02 Name : Ali
+    #endregion
+    #region Value Type Behavior 
+
+    //Point p01 = new Point(10, 20);
+    //Point p02 = p01;  // Creates a COPY!
+    //Console.WriteLine($"p01 = {p01}"); // Output: p01 = (10, 20)
+    //Console.WriteLine($"p02 = {p02}"); // Output: p02 = (10, 20)
+    //p02.X = 100;
+    //Console.WriteLine("After Change p02.X = 100");
+    //Console.WriteLine($"p01 = {p01}"); // Output: p01 = (10, 20)
+    //Console.WriteLine($"p02 = {p02}"); // Output: p02 = (100, 20)
+    #endregion
+    #region Class Library 
+
+    //int result =  MathHelper.Add(10, 20);
+
+    //string validEmail = "aliaa@gmail.com";
+    //string invalidEmail = "aliaagmail.com";
+    //Console.WriteLine(ValidationHelper.IsValidEmail(validEmail));
+    //Console.WriteLine(ValidationHelper.IsValidEmail(invalidEmail));
 
     #endregion
+    #region Access Modifiers 
+
+    //Employee emp = new Employee("Mohamed", "10", 5000);
+    //emp.Name = "Ahmed Ali"; // Accessing public property
+    // //emp.employeeId = "20"; // invalid - Cannot access internal field outside of its assembly
+    // //emp.salary = 6000; // invalid - Cannot access private field outside of the Employee class
+    //string result =  emp.GetSalaryInfo(); // Accessing public method that internally accesses private field
+    //Console.WriteLine(result);
+
+    #endregion
+
+#endregion
     internal class Program
     {
         static void Main(string[] args)
