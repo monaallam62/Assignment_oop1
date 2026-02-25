@@ -108,9 +108,9 @@ namespace Assignment_oop1
             #endregion
             #endregion
             #region Question 4
-            //Why do we use class libraries?
+            //What is a class library?
             // is a separate project that contains reusable classes, but has no Main method and cannot run on its own. It compiles into a .dll file
-            //Why we use Libirary
+            ////Why do we use class libraries?
             //Reusable write once, use in many projects , Organization — Separate concerns into different assemblies, Maintenance — fix a bug once, all projects benefit
             #endregion
             #region Question 5
