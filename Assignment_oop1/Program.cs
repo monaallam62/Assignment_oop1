@@ -95,8 +95,7 @@ namespace Assignment_oop1
             //private can access only in their scope can't see outside just in their class
             //Person3 p3 = new Person3();
             //p3.Name = "Mona";
-            //p3.Age = 20; //error
-            //لازم نكت نسدعي الفانكشن من غير objects
+            //p3.Age = 20; //err
             //p3.SetAge(23);
             //Console.WriteLine("Name is "+ p3.Name +", Age ="+ p3.GetAge());
             #endregion
@@ -113,6 +112,8 @@ namespace Assignment_oop1
             //Why we use Libirary
             //Reusable write once, use in many projects , Organization — Separate concerns into different assemblies, Maintenance — fix a bug once, all projects benefit
             #endregion
+
+
 
 
         }

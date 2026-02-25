@@ -6,14 +6,21 @@ using System.Threading.Tasks;
 
 namespace Assignment_oop1
 {
+    #region Question 1
+    #region Question 1 class
     //internal class Person
     //{
     //    public string name;
     //}
+    #endregion
+    #region Question 1 struct
     //public struct Person2
     //{
     //    public string Name;
     //}
+    #endregion
+
+    #endregion    
     //public class Person3
     //{
     //    public string Name;
