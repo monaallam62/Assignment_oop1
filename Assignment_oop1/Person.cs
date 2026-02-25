@@ -92,6 +92,7 @@ namespace Assignment_oop1
             Console.WriteLine($"Seat : {Seat}");
             Console.WriteLine($"Price : {Price}");
             Console.WriteLine($"Total ({taxPercent}% tax) : {CalcTotal(taxPercent)}");
+
         }
     } 
     #endregion
