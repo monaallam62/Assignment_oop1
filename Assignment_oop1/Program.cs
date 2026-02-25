@@ -214,8 +214,6 @@ namespace Assignment_oop1
             //Console.WriteLine($"Discount after: {discount}");
             //ticket.PrintTicket(14);
             #endregion
-
-
         }
     }
 }
