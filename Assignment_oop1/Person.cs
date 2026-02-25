@@ -20,7 +20,8 @@ namespace Assignment_oop1
     //}
     #endregion
 
-    #endregion    
+    #endregion
+    #region question 2
     //public class Person3
     //{
     //    public string Name;
@@ -34,6 +35,6 @@ namespace Assignment_oop1
     //    {
     //        return Age;
     //    }
-
     //}
+    #endregion
 }
